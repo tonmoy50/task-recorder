@@ -12,4 +12,10 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  title: string = "Hello There!";
+
+  toggleAddTask(parm: Number): void {
+    console.log("Toggled Add Task");
+  }
+
 }
